@@ -1,0 +1,29 @@
+cloud:
+  label: Cloud
+  permalink: /cloud
+  description: Posts related to cloud computing, infrastructure, and security (e.g., AWS, Azure, GCP).
+
+ai:
+  label: AI
+  permalink: /ai
+  description: Topics covering Artificial Intelligence, machine learning, and its security implications.
+
+security:
+  label: Security
+  permalink: /security
+  description: General cybersecurity concepts, principles, and best practices.
+
+linux:
+  label: Linux
+  permalink: /linux
+  description: Content related to the Linux operating system, administration, and security.
+
+web:
+  label: Web
+  permalink: /web
+  description: All things related to web application security, development, and penetration testing.
+
+ad:
+  label: AD
+  permalink: /ad
+  description: Posts focusing on Active Directory (AD) security and exploitation.
