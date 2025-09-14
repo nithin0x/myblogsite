@@ -78,7 +78,7 @@ const config = {
         title: 'Chola Sec,',
         logo: {
           alt: 'Chola Sec Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {
