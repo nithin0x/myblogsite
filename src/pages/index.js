@@ -20,7 +20,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/about_me/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            About Me →
           </Link>
         </div>
       </div>
@@ -28,14 +28,31 @@ function HomepageHeader() {
   );
 }
 
+// This is the new component for your intro text
+function HomepageIntroduction() {
+  return (
+    <div className={styles.intro}>
+      <div className="container text--center">
+        {/* Using the Heading component for consistency */}
+        <Heading as="h2" className={styles.introHeading}></Heading>
+  
+      </div>
+    </div>
+  );
+}
+
+
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`Welcome`}
+      description="Nithin's cybersecurity blog and open notebook for CTF write-ups, cloud security labs, and AI security research.">
+        
       <HomepageHeader />
       <main>
+        {/* The new intro section is called here */}
+        <HomepageIntroduction /> 
         <HomepageFeatures />
       </main>
     </Layout>

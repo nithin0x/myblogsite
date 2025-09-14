@@ -5,32 +5,32 @@ import styles from './styles.module.css';
 // TODO: Consider replacing these default SVGs with more relevant icons
 const FeatureList = [
   {
-    title: 'Offensive Security & Pen-Testing',
+    title: 'Offensive Security',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Explore detailed insights from real-world penetration tests across web,
-        cloud, and Active Directory environments.
+        Ever wonder how things break? Follow along as I share stories and tactics
+        from my adventures in web, cloud, and Active Directory penetration testing.
       </>
     ),
   },
   {
-    title: 'Cybersecurity Research & Insights',
+    title: 'Defensive Security',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Dive into blog posts and articles covering emerging threats, defensive
-        strategies, and the latest trends in the cybersecurity landscape.
+        It's not just about attacking; it's about building stronger walls. Here, we'll
+        put on the blue team hat and learn how to defend our systems from real threats.
       </>
     ),
   },
   {
-    title: 'Professional Skills & Journey',
+    title: 'Tools & Troubleshooting',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Learn about my professional background, technical skills, and the
-        certifications that drive my work in securing digital infrastructures.
+        For those moments when you're stuck on a tricky Linux problem or just need a new tool.
+        This is my collection of favorite commands, scripts, and software.
       </>
     ),
   },

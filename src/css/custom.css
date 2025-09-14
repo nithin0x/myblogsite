@@ -28,3 +28,27 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Add this CSS to your index.module.css file */
+
+.intro {
+  padding: 4rem 2rem;
+  background-color: #f7f7f7; /* A slightly off-white background */
+}
+
+/* For dark mode */
+[data-theme='dark'] .intro {
+  background-color: #1e1e1e; /* A slightly off-black for dark mode */
+}
+
+.intro p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+.introHeading {
+  margin-bottom: 1.5rem;
+}
