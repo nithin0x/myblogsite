@@ -75,7 +75,7 @@ const config = {
     ({
       image: 'img/social-card.jpg',
       navbar: {
-        title: 'Chola Sec,',
+        title: 'Chola Sec',
         logo: {
           alt: 'Chola Sec Logo',
           src: 'img/logo.png',

@@ -13,3 +13,6 @@ keywords:
 image: .
 description: Dive into the 2025 cybersecurity landscape. Learn about the latest offensive tactics and the modern defensive strategies you need to stay secure.
 ---
+
+
+<!-- truncate -->
